@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
 import holiImage from './assets/holi.jpg';  // Import the image
-
-
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 const HoliApp = () => {
@@ -35,25 +32,25 @@ const HoliApp = () => {
 
   return (
     <div className="container text-center mt-5">
-  
-  <h1 className="display-4 text-danger fw-bold ">
-  "HAPPY HOLI TO ALL THE TRANSPORTATION ENGINEERS!"
-</h1>
+      <h1 className="display-4 text-danger fw-bold">
+        HAPPY HOLI TO ALL THE TRANSPORTATION ENGINEERS!
+      </h1>
 
-  <img 
+      <img 
         src={holiImage}  // Use the imported image here
         alt="Holi Celebration"
         className="rounded-circle"  // Bootstrap class for rounded image
         style={{ width: '150px', height: '150px', objectFit: 'cover' }}  // Optional: Control size and maintain aspect ratio
       />
 
-      <h1 className="display-4 text-blue ">"May your life be as vibrant and smooth as the best-designed roadways! enjoy the festivities and let the colors flow like traffic on a perfect route!"</h1>
-     
+      <h1 className="display-4 text-primary">
+        May your life be as vibrant and smooth as the best-designed roadways! Enjoy the festivities and let the colors flow like traffic on a perfect route!
+      </h1>
+
       <h6 className="text-success fw-bold fs-7">DANU GOWDA (Aargus)</h6>
 
       <h3 className="text-primary">Countdown to Holi:</h3>
       <div className="display-5 fw-bold text-danger">{timeLeft}</div>
-     
     </div>
   );
 };
