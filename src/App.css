@@ -1,41 +1,30 @@
-.App {
+/* Custom styles without Bootstrap */
+
+.custom-container {
   text-align: center;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-heading {
+  font-size: 2.5rem;
+  color: #d9534f; /* Equivalent to 'text-danger' */
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-subheading {
+  font-size: 1rem;
+  color: #28a745;  /* Color for subheading */
 }
 
-.App-link {
-  color: #61dafb;
+.custom-time {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #dc3545;  /* Color for countdown */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/* Keyframe for rainbow color change */
-
-
